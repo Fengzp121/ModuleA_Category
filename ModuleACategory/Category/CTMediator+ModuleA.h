@@ -5,8 +5,8 @@
 //  Created by 你吗 on 2021/6/24.
 //
 
-#import "CTMediator.h"
-#import <UIKit/UIViewController.h>
+#import <CTMediator/CTMediator.h>
+#import <UIKit/UIKit.h>
 @interface CTMediator (ModuleA)
 -(UIViewController *)ModuleA_viewController;
 

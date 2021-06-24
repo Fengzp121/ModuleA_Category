@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F170D28F542A39F78709719 /* libPods-ModuleACategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DE08F18184539985B2919C3 /* libPods-ModuleACategory.a */; };
 		3CC08112268432F500C4FFC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08111268432F500C4FFC0 /* AppDelegate.m */; };
 		3CC08115268432F500C4FFC0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08114268432F500C4FFC0 /* SceneDelegate.m */; };
 		3CC08118268432F500C4FFC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08117268432F500C4FFC0 /* ViewController.m */; };
@@ -15,11 +16,11 @@
 		3CC08120268432F700C4FFC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC0811E268432F700C4FFC0 /* LaunchScreen.storyboard */; };
 		3CC08123268432F700C4FFC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC08122268432F700C4FFC0 /* main.m */; };
 		3CC0812D2684335300C4FFC0 /* CTMediator+ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC0812C2684335300C4FFC0 /* CTMediator+ModuleA.m */; };
-		7A3098A2C56F5BF20FD9F32C /* Pods_ModuleACategory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F80ECCE853EF233F4336D9 /* Pods_ModuleACategory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BD1FA5C994FF90F0F30EC8F /* Pods-ModuleACategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleACategory.release.xcconfig"; path = "Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory.release.xcconfig"; sourceTree = "<group>"; };
+		2DE08F18184539985B2919C3 /* libPods-ModuleACategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModuleACategory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC0810D268432F500C4FFC0 /* ModuleACategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleACategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC08110268432F500C4FFC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CC08111268432F500C4FFC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		3CC08122268432F700C4FFC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CC0812B2684335300C4FFC0 /* CTMediator+ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleA.h"; sourceTree = "<group>"; };
 		3CC0812C2684335300C4FFC0 /* CTMediator+ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleA.m"; sourceTree = "<group>"; };
-		80F80ECCE853EF233F4336D9 /* Pods_ModuleACategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuleACategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7737E8DF1D16BA1AF74C08E /* Pods-ModuleACategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleACategory.debug.xcconfig"; path = "Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A3098A2C56F5BF20FD9F32C /* Pods_ModuleACategory.framework in Frameworks */,
+				0F170D28F542A39F78709719 /* libPods-ModuleACategory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		704D809D06A49B1002874E49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80F80ECCE853EF233F4336D9 /* Pods_ModuleACategory.framework */,
+				2DE08F18184539985B2919C3 /* libPods-ModuleACategory.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,7 +110,6 @@
 				A7737E8DF1D16BA1AF74C08E /* Pods-ModuleACategory.debug.xcconfig */,
 				2BD1FA5C994FF90F0F30EC8F /* Pods-ModuleACategory.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,7 +124,6 @@
 				3CC08109268432F500C4FFC0 /* Sources */,
 				3CC0810A268432F500C4FFC0 /* Frameworks */,
 				3CC0810B268432F500C4FFC0 /* Resources */,
-				C63B109055F94D78E338B687 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,23 +179,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C63B109055F94D78E338B687 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModuleACategory/Pods-ModuleACategory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F17D34B9ACE5D092F520AA41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,13 +359,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3T9X9D9CZV;
 				INFOPLIST_FILE = ModuleACategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ffzp.ModuleACategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -397,13 +379,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3T9X9D9CZV;
 				INFOPLIST_FILE = ModuleACategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ffzp.ModuleACategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,15 +1,31 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ModuleACategory"
+
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ModuleA."
+
+  spec.summary      = "业务模块B组建分类"
+
+  spec.description  = <<-DESC
+                       TODO: Add long description of the pod here.
+                       DESC
+
+  spec.homepage     = "https://github.com/Fengzp121/ModuleA_Category"
+
+  spec.license      = "MIT"
+
   spec.platform     = :ios, "9.0"
-  spec.homepage     = "https://github.com/Fengzp121/ModuleACategory"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-  spec.author       = { "zpff" => "863750990@qq.com" }
-  
-  spec.source       = { :git => "https://github.com/Fengzp121/ModuleACategory.git", :tag => "#{spec.version}" }
+
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
+
+  spec.author       = { "Fengzp121" => "863750990@qq.com" }
+
+  spec.source       = { :git => "https://github.com/Fengzp121/ModuleA_Category.git", :tag => spec.version.to_s }
+
+  spec.requires_arc = true
+
   spec.source_files  = "ModuleACategory/Category/**/*.{h,m}"
-  s.requires_arc = true
+
+  spec.dependency "CTMediator"
 
 end
